@@ -6,7 +6,7 @@ namespace DesignPatterns.UnitTests.Creational.SingletonTests
     public class SingletonUnitTests
     {
         [Fact]
-        public void GetInstance_ShouldInitialiseSingleton()
+        public void GetInstance_InitialisesSingleton()
         {
             // arrange
             // act

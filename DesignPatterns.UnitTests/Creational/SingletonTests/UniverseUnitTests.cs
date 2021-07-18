@@ -6,7 +6,7 @@ namespace DesignPatterns.UnitTests.Creational.SingletonTests
     public class UniverseUnitTests
     {
         [Fact]
-        public void BigBang_ShouldInitialiseUniverse()
+        public void BigBang_InitialisesUniverse()
         {
             // arrange
             // act
@@ -17,7 +17,7 @@ namespace DesignPatterns.UnitTests.Creational.SingletonTests
         }
 
         [Fact]
-        public void YearsSinceBigBang_ShouldDefaultUniverseAgeToZero()
+        public void YearsSinceBigBang_DefaultsUniverseAgeToZero()
         {
             // arrange
             var univserse = Universe.BigBang();
@@ -30,7 +30,7 @@ namespace DesignPatterns.UnitTests.Creational.SingletonTests
         }
 
         [Fact]
-        public void TravelToTheEndOfTime_ShouldSetUniverseAgeToMaxLongValue()
+        public void TravelToTheEndOfTime_SetsUniverseAgeToMaxLongValue()
         {
             // arrange
             var univserse = Universe.BigBang();
@@ -43,7 +43,7 @@ namespace DesignPatterns.UnitTests.Creational.SingletonTests
         }
 
         [Fact]
-        public void TravelToTheBeginningOfTime_ShouldSetUniverseAgeToZero()
+        public void TravelToTheBeginningOfTime_SetsUniverseAgeToZero()
         {
             // arrange
             var univserse = Universe.BigBang();

@@ -3,18 +3,18 @@
     public class Universe
     {
         public long YearsSinceBigBang { get; set; }
-        private static Universe Existence { get; set; }
+        private static Universe _Existence { get; set; }
 
         private Universe() { }
 
         public static Universe BigBang()
         {
-            if (Existence == null)
+            if (_Existence == null)
             {
-                Existence = new Universe();
+                _Existence = new Universe();
             }
             
-            return Existence;
+            return _Existence;
         }
 
         public void TravelToTheEndOfTime()
