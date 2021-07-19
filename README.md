@@ -1,2 +1,4 @@
 # design-patterns
-Personal collection of design pattern examples and usages
+
+Personal collection of design patterns with C# and TypeScript implemented examples
+UnitTests show usage of each pattern
