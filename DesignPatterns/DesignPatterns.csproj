@@ -7,7 +7,7 @@
   <ItemGroup>
     <Folder Include="Behavioural\" />
     <Folder Include="Creational\AbstractFactory\" />
-    <Folder Include="Creational\Builder\" />
+    <Folder Include="Creational\Builder\TypeScript\" />
     <Folder Include="Structural\" />
   </ItemGroup>
 
