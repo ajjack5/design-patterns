@@ -6,16 +6,19 @@
 
   <ItemGroup>
     <Folder Include="Behavioural\" />
-    <Folder Include="Creational\AbstractFactory\" />
-    <Folder Include="Creational\Builder\TypeScript\" />
+    <Folder Include="Creational\AbstractFactory\TypeScript\" />
     <Folder Include="Structural\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Creational\Builder\TypeScript\Builder.ts">
+      <SubType>Code</SubType>
+    </None>
     <None Update="Creational\Factory\TypeScript\Factory.ts">
       <SubType>Code</SubType>
     </None>

@@ -11,19 +11,19 @@ export class ProductTwo implements IProduct {
 }
 
 export class Factory {
-    public CreateProduct(): IProduct | null {
+    public createProduct(): IProduct | null {
         return null;
     }
 }
 
 export class ProductOneCreator implements Factory {
-    public CreateProduct(): IProduct | null {
+    public createProduct(): IProduct | null {
         return new ProductOne();
     }
 }
 
 export class ProductTwoCreator implements Factory {
-    public CreateProduct(): IProduct | null {
+    public createProduct(): IProduct | null {
         return new ProductTwo();
     }
 }
@@ -41,6 +41,6 @@ export class SomeService {
     }
 
     public getProduct(): IProduct {
-        return this.factory?.CreateProduct();
+        return this.factory?.createProduct();
     }
 }
