@@ -6,8 +6,25 @@
 
   <ItemGroup>
     <Folder Include="Behavioural\" />
-    <Folder Include="Creational\AbstractFactory\TypeScript\" />
-    <Folder Include="Structural\" />
+    <Folder Include="Structural\Bridge\CSharp\Examples\" />
+    <Folder Include="Structural\Bridge\CSharp\Implementation\" />
+    <Folder Include="Structural\Composite\CSharp\Examples\" />
+    <Folder Include="Structural\Composite\CSharp\Implementation\" />
+    <Folder Include="Structural\Composite\TypeScript\" />
+    <Folder Include="Structural\Decorator\CSharp\Examples\" />
+    <Folder Include="Structural\Decorator\CSharp\Implementation\" />
+    <Folder Include="Structural\Decorator\TypeScript\" />
+    <Folder Include="Structural\Facade\CSharp\Examples\" />
+    <Folder Include="Structural\Facade\CSharp\Implementation\" />
+    <Folder Include="Structural\Facade\TypeScript\" />
+    <Folder Include="Structural\Flyweight\CSharp\Examples\" />
+    <Folder Include="Structural\Flyweight\CSharp\Implementation\" />
+    <Folder Include="Structural\Flyweight\TypeScript\" />
+    <Folder Include="Structural\Proxy\CSharp\Examples\" />
+    <Folder Include="Structural\Proxy\CSharp\Implementation\" />
+    <Folder Include="Structural\Proxy\TypeScript\" />
+    <Folder Include="Structural\Bridge\TypeScript\" />
+    <Folder Include="Structural\Adapter\TypeScript\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -16,6 +33,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Creational\AbstractFactory\TypeScript\AbstractFactory.ts">
+      <SubType>Code</SubType>
+    </None>
     <None Update="Creational\Builder\TypeScript\Builder.ts">
       <SubType>Code</SubType>
     </None>
