@@ -6,8 +6,6 @@
 
   <ItemGroup>
     <Folder Include="Behavioural\" />
-    <Folder Include="Structural\Bridge\CSharp\Examples\" />
-    <Folder Include="Structural\Bridge\CSharp\Implementation\" />
     <Folder Include="Structural\Composite\CSharp\Examples\" />
     <Folder Include="Structural\Composite\CSharp\Implementation\" />
     <Folder Include="Structural\Composite\TypeScript\" />
@@ -23,8 +21,6 @@
     <Folder Include="Structural\Proxy\CSharp\Examples\" />
     <Folder Include="Structural\Proxy\CSharp\Implementation\" />
     <Folder Include="Structural\Proxy\TypeScript\" />
-    <Folder Include="Structural\Bridge\TypeScript\" />
-    <Folder Include="Structural\Adapter\TypeScript\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -46,6 +42,12 @@
       <SubType>Code</SubType>
     </None>
     <None Update="Creational\Prototype\TypeScript\Prototype.ts">
+      <SubType>Code</SubType>
+    </None>
+    <None Update="Structural\Adapter\TypeScript\Adapter.ts">
+      <SubType>Code</SubType>
+    </None>
+    <None Update="Structural\Bridge\TypeScript\Bridge.ts">
       <SubType>Code</SubType>
     </None>
   </ItemGroup>
