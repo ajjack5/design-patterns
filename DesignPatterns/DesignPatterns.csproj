@@ -6,8 +6,6 @@
 
   <ItemGroup>
     <Folder Include="Behavioural\" />
-    <Folder Include="Structural\Composite\CSharp\Examples\" />
-    <Folder Include="Structural\Composite\CSharp\Implementation\" />
     <Folder Include="Structural\Composite\TypeScript\" />
     <Folder Include="Structural\Decorator\CSharp\Examples\" />
     <Folder Include="Structural\Decorator\CSharp\Implementation\" />
