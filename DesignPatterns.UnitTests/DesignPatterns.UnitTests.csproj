@@ -21,7 +21,6 @@
 
   <ItemGroup>
     <Folder Include="Behavioural\" />
-    <Folder Include="Structural\Decorator\" />
     <Folder Include="Structural\Facade\" />
     <Folder Include="Structural\Flyweight\" />
     <Folder Include="Structural\Proxy\" />
