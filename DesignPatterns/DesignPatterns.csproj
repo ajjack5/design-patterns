@@ -6,9 +6,7 @@
 
   <ItemGroup>
     <Folder Include="Behavioural\" />
-    <Folder Include="Structural\Decorator\TypeScript\" />
     <Folder Include="Structural\Facade\CSharp\Examples\" />
-    <Folder Include="Structural\Facade\CSharp\Implementation\" />
     <Folder Include="Structural\Facade\TypeScript\" />
     <Folder Include="Structural\Flyweight\CSharp\Examples\" />
     <Folder Include="Structural\Flyweight\CSharp\Implementation\" />
@@ -46,6 +44,9 @@
       <SubType>Code</SubType>
     </None>
     <None Update="Structural\Composite\TypeScript\Composite.ts">
+      <SubType>Code</SubType>
+    </None>
+    <None Update="Structural\Decorator\TypeScript\Decorator.ts">
       <SubType>Code</SubType>
     </None>
   </ItemGroup>
