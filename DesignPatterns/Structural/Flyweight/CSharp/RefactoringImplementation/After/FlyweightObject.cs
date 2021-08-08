@@ -5,15 +5,15 @@
         public int XPos { get; set; }
         public int YPos { get; set; }
 
-        public int[] CommonStaticImageData { get => CommonStaticImage.ImageData; }
+        public int[] CommonStaticImageData { get => _CommonStaticImage.ImageData; }
 
         // immutable common flyweight data
-        private readonly CommonStaticImage CommonStaticImage;
+        private readonly CommonStaticImage _CommonStaticImage;
         
         // explicit ref
         public FlyweightObject(ref CommonStaticImage commonStaticImage)
         {
-            CommonStaticImage = commonStaticImage;
+            _CommonStaticImage = commonStaticImage;
         }
     }
 }
