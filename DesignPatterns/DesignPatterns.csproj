@@ -6,9 +6,6 @@
 
   <ItemGroup>
     <Folder Include="Behavioural\" />
-    <Folder Include="Structural\Flyweight\TypeScript\" />
-    <Folder Include="Structural\Proxy\CSharp\Examples\" />
-    <Folder Include="Structural\Proxy\CSharp\Implementation\" />
     <Folder Include="Structural\Proxy\TypeScript\" />
   </ItemGroup>
 
@@ -46,6 +43,9 @@
       <SubType>Code</SubType>
     </None>
     <None Update="Structural\Facade\TypeScript\Facade.ts">
+      <SubType>Code</SubType>
+    </None>
+    <None Update="Structural\Flyweight\TypeScript\Flyweight.ts">
       <SubType>Code</SubType>
     </None>
   </ItemGroup>

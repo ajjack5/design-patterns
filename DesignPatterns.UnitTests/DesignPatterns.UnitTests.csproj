@@ -22,7 +22,6 @@
 
   <ItemGroup>
     <Folder Include="Behavioural\" />
-    <Folder Include="Structural\Proxy\" />
   </ItemGroup>
 
   <ItemGroup>
