@@ -5,8 +5,35 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Behavioural\" />
-    <Folder Include="Structural\Proxy\TypeScript\" />
+    <Folder Include="Behavioural\ChainOfResponsibility\CSharp\Examples\" />
+    <Folder Include="Behavioural\Mediator\CSharp\Examples\" />
+    <Folder Include="Behavioural\Mediator\CSharp\Implementation\" />
+    <Folder Include="Behavioural\Mediator\TypeScript\" />
+    <Folder Include="Behavioural\Memento\CSharp\Examples\" />
+    <Folder Include="Behavioural\Memento\CSharp\Implementation\" />
+    <Folder Include="Behavioural\Memento\TypeScript\" />
+    <Folder Include="Behavioural\Observer\CSharp\Examples\" />
+    <Folder Include="Behavioural\Observer\CSharp\Implementation\" />
+    <Folder Include="Behavioural\Observer\TypeScript\" />
+    <Folder Include="Behavioural\State\CSharp\Examples\" />
+    <Folder Include="Behavioural\State\CSharp\Implementation\" />
+    <Folder Include="Behavioural\State\TypeScript\" />
+    <Folder Include="Behavioural\Strategy\CSharp\Examples\" />
+    <Folder Include="Behavioural\Strategy\CSharp\Implementation\" />
+    <Folder Include="Behavioural\Strategy\TypeScript\" />
+    <Folder Include="Behavioural\TemplateMethod\CSharp\Examples\" />
+    <Folder Include="Behavioural\TemplateMethod\CSharp\Implementation\" />
+    <Folder Include="Behavioural\TemplateMethod\TypeScript\" />
+    <Folder Include="Behavioural\Visitor\CSharp\Examples\" />
+    <Folder Include="Behavioural\Visitor\CSharp\Implementation\" />
+    <Folder Include="Behavioural\Visitor\TypeScript\" />
+    <Folder Include="Behavioural\Iterator\CSharp\Examples\" />
+    <Folder Include="Behavioural\Iterator\CSharp\Implementation\" />
+    <Folder Include="Behavioural\Iterator\TypeScript\" />
+    <Folder Include="Behavioural\Command\CSharp\Examples\" />
+    <Folder Include="Behavioural\Command\CSharp\Implementation\" />
+    <Folder Include="Behavioural\Command\TypeScript\" />
+    <Folder Include="Behavioural\ChainOfResponsibility\TypeScript\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -46,6 +73,9 @@
       <SubType>Code</SubType>
     </None>
     <None Update="Structural\Flyweight\TypeScript\Flyweight.ts">
+      <SubType>Code</SubType>
+    </None>
+    <None Update="Structural\Proxy\TypeScript\Proxy.ts">
       <SubType>Code</SubType>
     </None>
   </ItemGroup>
