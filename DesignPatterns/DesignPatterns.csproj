@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Behavioural\ChainOfResponsibility\CSharp\Examples\" />
     <Folder Include="Behavioural\Mediator\CSharp\Examples\" />
     <Folder Include="Behavioural\Mediator\CSharp\Implementation\" />
     <Folder Include="Behavioural\Mediator\TypeScript\" />
@@ -30,10 +29,7 @@
     <Folder Include="Behavioural\Iterator\CSharp\Examples\" />
     <Folder Include="Behavioural\Iterator\CSharp\Implementation\" />
     <Folder Include="Behavioural\Iterator\TypeScript\" />
-    <Folder Include="Behavioural\Command\CSharp\Examples\" />
-    <Folder Include="Behavioural\Command\CSharp\Implementation\" />
     <Folder Include="Behavioural\Command\TypeScript\" />
-    <Folder Include="Behavioural\ChainOfResponsibility\TypeScript\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -42,6 +38,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Behavioural\ChainOfResponsibility\TypeScript\ChainOfResponsibility.ts">
+      <SubType>Code</SubType>
+    </None>
     <None Update="Creational\AbstractFactory\TypeScript\AbstractFactory.ts">
       <SubType>Code</SubType>
     </None>
